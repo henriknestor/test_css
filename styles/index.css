@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: rgb(5, 91, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+
+.info-container {
+    background-color: blueviolet;
+}
