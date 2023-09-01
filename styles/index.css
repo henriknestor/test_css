@@ -8,18 +8,60 @@ h1 {
     text-align: center
 }
 
-img {
+/* img {
     display: inline-block;
     width: 200px
+} */
+
+.cat {
+    background-color: white;
+    display: inline;
+    height: 50vh;
+    padding: 10px 5px 30px 0px;
+    margin: -20px;
+}
+
+.dog {
+    display: inline;
+    height: 70vh;
+}
+
+.bird {
+    display: inline-block;
+    height: 50vh;
+}
+
+.elephant {
+    height: 90 vh;
+    width: 50%;
+}
+
+.circle {
+    background-color: blueviolet;
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .info-container {
     display: inline-block;
     background-color: white;
-    width: 200px;
-    height: 200px;
-    padding: 5px;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
     border: 5px solid black;
     margin: 50px;
-    overflow: hidden;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.info-title {
+    margin-bottom: 30px;
+}
+
+.info-content {
+    width: 60%;
+    height: 100%;
+    margin: auto;
 }
