@@ -9,5 +9,7 @@ h1 {
 }
 
 .info-container {
-    background-color: blueviolet;
+    background-color: white;
+    width: 10px;
+    overflow: hidden;
 }
